@@ -1,6 +1,6 @@
 ---
 name: scorm-xapi
-description: Add LMS reporting to a Vite/React learning module — SCORM 1.2, SCORM 2004 4th Edition, xAPI/Tin Can, or cmi5. Use whenever the user asks to: add SCORM or xAPI support, create or package a SCORM course, report quiz scores or completion to an LMS, generate imsmanifest.xml or tincan.xml, save or resume learner progress (suspend_data, bookmark), or integrate with any LMS. Also trigger on Hebrew: "תוסיף SCORM", "תארז לומדה", "דיווח ציון ל-LMS", "תוסיף דיווח", "איך מדווחים ציון", "תוסיף xAPI", "שמור התקדמות לומד", "חידוש מהמקום שעצרתי". Trigger even when the user is building any eLearning module and mentions LMS integration, without saying "SCORM" explicitly.
+description: 'Add LMS reporting to a Vite/React learning module — SCORM 1.2, SCORM 2004 4th Edition, xAPI/Tin Can, or cmi5. Use whenever the user wants to add SCORM or xAPI support, package a SCORM course, report quiz scores or completion to an LMS, generate imsmanifest.xml or tincan.xml, save or resume learner progress (suspend_data, bookmark), or integrate with any LMS. Also trigger on Hebrew: תוסיף SCORM, תארז לומדה, דיווח ציון ל-LMS, תוסיף דיווח, איך מדווחים ציון, תוסיף xAPI, שמור התקדמות לומד. Trigger even when the user is building any eLearning module and mentions LMS integration, without saying SCORM explicitly.'
 ---
 
 # SCORM & xAPI Skill — Navigation Guide

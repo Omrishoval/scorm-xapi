@@ -21,16 +21,14 @@ When you invoke `/scorm-xapi` (or Claude detects you need LMS reporting), the sk
 
 ## Installation
 
-Copy the `scorm-xapi/` folder into your Claude Code skills directory:
+```bash
+npx skills add https://github.com/Omrishoval/scorm-xapi --skill scorm-xapi -g -a claude-code
+```
+
+Or manually — copy the `scorm-xapi/` folder into your Claude Code skills directory:
 
 ```
 ~/.claude/skills/scorm-xapi/
-```
-
-Or if you're using a project-local skills path:
-
-```
-.claude/skills/scorm-xapi/
 ```
 
 ---

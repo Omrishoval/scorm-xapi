@@ -21,15 +21,22 @@ When you invoke `/scorm-xapi` (or Claude detects you need LMS reporting), the sk
 
 ## Installation
 
+**Claude Code:**
 ```bash
 npx skills add https://github.com/Omrishoval/scorm-xapi --skill scorm-xapi -g -a claude-code
 ```
 
-Or manually — copy the `scorm-xapi/` folder into your Claude Code skills directory:
+**Codex:**
+```bash
+npx skills add https://github.com/Omrishoval/scorm-xapi --skill scorm-xapi -g -a codex
+```
 
+**All agents at once:**
+```bash
+npx skills add https://github.com/Omrishoval/scorm-xapi --skill scorm-xapi -g -a '*'
 ```
-~/.claude/skills/scorm-xapi/
-```
+
+Or manually — copy the `scorm-xapi/` folder into your agent's skills directory (`~/.claude/skills/`, `~/.codex/skills/`, etc.).
 
 ---
 
